@@ -104,5 +104,8 @@ h4 {
     left: 45%;
     top: -300px;
     font-size: 23em;
+    color: #bb012d;
+    /* text-shadow: 2px 2px #ff0000; */
+    text-shadow: 2px 2px black;
 }
 
