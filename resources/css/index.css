@@ -1,0 +1,111 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #495057;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: .7fr 4fr 6fr 1fr 3fr;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "characters characters characters"
+    "story story story"
+    "weapons weapons weapons";
+    height: 100vh;
+  
+}
+
+main {
+    grid-area: main;
+    height: 10vh;
+    position: relative;
+}
+
+header {
+    grid-area: header;
+}
+
+section.characters {
+    grid-area: characters;
+}
+
+
+section.story {
+    grid-area: story;
+}
+
+section.weapons {
+    grid-area: weapons;
+}
+
+/* HEADER */
+.header li {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 40px;
+    position: relative;
+    left: 33%;
+    bottom: 65px;
+    font-size: 1.1em;
+}
+
+.header a {
+    text-decoration: none;
+    color: #ced4da;
+}
+
+.header a::after {
+    color: #e9ecef;
+}
+
+.header a:hover {
+    color: #e9ecef;
+    text-decoration: underline;
+}
+
+/* .ellie-backpack {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    bottom: 180px;
+    left: 150px;
+} */
+
+/* LANDING */
+.landing h1,
+h2,
+h3 {
+    color: #ced4da;
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.landing h1 {
+    left: 15%;
+    top: -90px;
+    font-size: 13em;
+    letter-spacing: -5px;
+}
+
+.landing h2 {
+    left: 17%;
+    top: 90px;
+    font-size: 11em;
+    letter-spacing: -5px;
+}
+/* 
+.landing h3 {
+    top: 255px;
+    left: 253px;
+    font-size: 9em;
+    letter-spacing: -10px;
+} */
+
