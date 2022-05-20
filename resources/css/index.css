@@ -73,32 +73,36 @@ section.weapons {
 /* LANDING */
 .landing h1,
 h2,
-h3 {
+h3,
+h4 {
     color: #ced4da;
     position: absolute;
     text-transform: uppercase;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .landing h1 {
-    left: 15%;
-    top: -90px;
+    left: 7%;
+    top: 50px;
     font-size: 13em;
-    letter-spacing: -5px;
 }
 
 .landing h2 {
-    left: 17%;
-    top: 90px;
-    font-size: 11em;
-    letter-spacing: -5px;
+    left: 24%;
+    top: 18px;
+    font-size: 13em;
 }
 
-/* 
+
 .landing h3 {
-    top: 255px;
-    left: 253px;
-    font-size: 9em;
-    letter-spacing: -10px;
-} */
+    left: 7%;
+    top: 200px;
+    font-size: 10em;
+}
+
+.landing h4 {
+    left: 47%;
+    top: -300px;
+    font-size: 23em;
+}
 
