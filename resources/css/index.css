@@ -9,39 +9,62 @@ html,body {
 /* GRID */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: .7fr 4fr 6fr 1fr 3fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 45px 550px 500px 500px 500px;
     grid-template-areas: 
     "header header header"
-    "main main main"
-    "characters characters characters"
+    "landing landing landing"
+    "arthur dutch hosea"
     "story story story"
-    "weapons weapons weapons";
-    height: 100vh;
-  
+    "lancaster pump volcanic";
+    height: 300vh;
+    overflow: hidden;
 }
 
-main {
-    grid-area: main;
-    height: 10vh;
-    position: relative;
-}
-
-header {
+section.header {
     grid-area: header;
+    /* background-color: blue; */
+
 }
 
-section.characters {
-    grid-area: characters;
+section.landing {
+    grid-area: landing;
+    /* background-color: green; */
 }
 
+section.arthur {
+    grid-area: arthur;
+    /* background-color: red; */
+}
+
+section.dutch {
+    grid-area: dutch;
+    /* background-color: brown; */
+}
+
+section.hosea {
+    grid-area: hosea;
+    /* background-color: yellow; */
+}
 
 section.story {
     grid-area: story;
+    /* background-color: pink; */
 }
 
-section.weapons {
-    grid-area: weapons;
+section.lancaster {
+    grid-area: lancaster;
+    /* background-color: orange; */
+}
+
+section.pump {
+    grid-area: pump;
+    /* background-color: purple; */
+}
+
+section.volcanic {
+    grid-area: volcanic;
+    /* background-color: gray; */
 }
 
 /* HEADER */
@@ -52,7 +75,7 @@ section.weapons {
     padding: 40px;
     position: relative;
     left: 33%;
-    bottom: 65px;
+    bottom: 45px;
     font-size: 1.1em;
 }
 
@@ -84,7 +107,7 @@ h4 {
 
 .landing h1 {
     left: 5%;
-    top: 50px;
+    top: 20px;
     font-size: 13em;
 }
 
