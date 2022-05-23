@@ -2,7 +2,7 @@ html,body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #495057;
+    background-color: #343a40;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -75,7 +75,7 @@ section.volcanic {
     padding: 40px;
     position: relative;
     left: 33%;
-    bottom: 45px;
+    bottom: 87px;
     font-size: 1.1em;
 }
 
@@ -107,27 +107,66 @@ h4 {
 
 .landing h1 {
     left: 5%;
-    top: 20px;
+    top: -20px;
     font-size: 13em;
 }
 
 .landing h2 {
     left: 22%;
-    top: 18px;
+    top: -18px;
     font-size: 13em;
 }
 
 
 .landing h3 {
     left: 4.5%;
-    top: 200px;
+    top: 160px;
     font-size: 10em;
 }
 
 .landing h4 {
     left: 45%;
-    top: -300px;
+    top: -337px;
     font-size: 23em;
     color: #bb012d;
 }
 
+/* 
+.main-photo {
+    width: 200px;
+    height: 200px;
+} */
+
+@media only screen and (max-width: 550px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 400px 300px 300px 300px 400px 300px 300px 300px;
+        grid-template-areas: 
+        "header"
+        "landing"
+        "arthur"
+        "dutch"
+        "hosea"
+        "story"
+        "lancaster"
+        "pump"
+        "volcanic";
+    }
+}
+
+.location-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 2%;
+    top: 36px;
+}
+
+.location {
+    position: relative;
+    bottom: 7px;
+    left: 4%;
+    color: #bb012d;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+}
