@@ -79,6 +79,7 @@ h4 {
     position: absolute;
     text-transform: uppercase;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-shadow: 2px 2px black;
 }
 
 .landing h1 {
@@ -105,7 +106,5 @@ h4 {
     top: -300px;
     font-size: 23em;
     color: #bb012d;
-    /* text-shadow: 2px 2px #ff0000; */
-    text-shadow: 2px 2px black;
 }
 
