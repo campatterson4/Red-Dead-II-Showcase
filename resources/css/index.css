@@ -2,7 +2,7 @@ html,body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #343a40;
+    background-color: black;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -89,7 +89,8 @@ section.volcanic {
 }
 
 .header a:hover {
-    color: #e9ecef;
+    color: #bb012d;
+    transition: color 0.3s ease-in;
     text-decoration: underline;
 }
 
@@ -103,7 +104,8 @@ h4 {
     text-transform: uppercase;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-shadow: 2px 2px black;
-    mix-blend-mode:hard-light;
+    /* mix-blend-mode:luminosity; */
+    opacity: 0.9;
 }
 
 .landing h1 {
@@ -129,7 +131,7 @@ h4 {
     left: 45%;
     top: -337px;
     font-size: 23em;
-    color: #bb012d;
+    color: #bb012d !important;
 }
 
 .landing video {
@@ -147,17 +149,31 @@ h4 {
     position: relative;
     left: 4.6%;
     top: 11.7px;
+    
 }
 
 .location {
     position: relative;
     bottom: 29px;
     left: 6%;
-    /* color: #bb012d; */
-    color: white;
+    color: #bb012d;
     text-transform: uppercase;
     text-shadow: 1px 1px black;
 }
+
+.location:hover {
+    color: #bb012d;
+    transition: color 0.3s ease-in;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* MEDIA QUERIRES */
