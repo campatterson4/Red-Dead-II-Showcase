@@ -147,7 +147,7 @@ h4 {
     width: 15px;
     height: 15px;
     position: relative;
-    left: 4.6%;
+    padding-left: 20px;
     top: 11.7px;
     
 }
@@ -155,7 +155,7 @@ h4 {
 .location {
     position: relative;
     bottom: 29px;
-    left: 6%;
+    padding-left: 40px;
     color: #bb012d;
     text-transform: uppercase;
     text-shadow: 1px 1px black;
