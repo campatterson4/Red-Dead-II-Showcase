@@ -10,10 +10,11 @@ html,body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 45px 550px 500px 500px 500px;
+    grid-template-rows: 45px 550px 45px 500px 500px 500px;
     grid-template-areas: 
     "header header header"
     "landing landing landing"
+    "char-title char-title char-title"
     "arthur dutch hosea"
     "story story story"
     "lancaster pump volcanic";
@@ -23,58 +24,63 @@ html,body {
 
 section.header {
     grid-area: header;
-    /* background-color: blue; */
-
 }
 
 section.landing {
     grid-area: landing;
-    /* background-color: green; */
+}
+
+section.char-title {
+    grid-area: char-title;
 }
 
 section.arthur {
     grid-area: arthur;
-    /* background-color: red; */
+    background-color: red;
 }
 
 section.dutch {
     grid-area: dutch;
-    /* background-color: brown; */
+    background-color: brown;
 }
 
 section.hosea {
     grid-area: hosea;
-    /* background-color: yellow; */
+    background-color: yellow;
 }
 
 section.story {
     grid-area: story;
-    /* background-color: pink; */
+    background-color: pink;
 }
 
 section.lancaster {
     grid-area: lancaster;
-    /* background-color: orange; */
+    background-color: orange;
 }
 
 section.pump {
     grid-area: pump;
-    /* background-color: purple; */
+    background-color: purple;
 }
 
 section.volcanic {
     grid-area: volcanic;
-    /* background-color: gray; */
+    background-color: gray;
 }
 
 /* HEADER */
+.header {
+    position: absolute;
+}
+
 .header li {
     list-style-type: none;
     text-transform: uppercase;
     display: inline-block;
     padding: 40px;
     position: relative;
-    left: 33%;
+    left: 99%;
     bottom: 110px;
     font-size: 1.1em;
 }
@@ -120,7 +126,6 @@ h4 {
     font-size: 13em;
 }
 
-
 .landing h3 {
     left: 28.2%;
     top: 160px;
@@ -140,6 +145,17 @@ h4 {
    object-fit: cover;
    z-index: -100;
 }
+
+/* CHARACTERS SECTION */
+.char-title h1 {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 15px;
+    color: #bb012d;
+    letter-spacing: 1em;
+}
+
 
 
 /* LOCATION  */
