@@ -36,7 +36,7 @@ section.char-title {
 
 section.arthur {
     grid-area: arthur;
-    background-color: red;
+    background-color: beige;
 }
 
 section.dutch {
@@ -181,6 +181,29 @@ h4 {
     color: #bb012d;
     transition: color 0.3s ease-in;
 }
+
+/* CHARACTER CARDS  */
+.arthur-card {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    background-color: green;
+    border-radius: 20px;
+
+}
+
+.arthur-card:hover {
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    width: 600px
+}
+
+
 
 
 
