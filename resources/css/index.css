@@ -204,6 +204,27 @@ h4 {
     transition-delay: 0s;
 }
 
+.arthur-card .circle1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #bb012d;
+    border-radius: 20px;
+}
+
+.arthur-card .circle1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+     clip-path: circle(120px at center);
+}
+
 .dutch-card {
     display: flex;
     justify-content: center;
