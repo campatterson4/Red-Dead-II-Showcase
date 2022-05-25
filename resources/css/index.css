@@ -42,7 +42,7 @@ section.arthur {
 
 section.dutch {
     grid-area: dutch;
-    background-color: brown;
+    background-color: pink;
 }
 
 section.hosea {
@@ -243,6 +243,27 @@ h4 {
 .dutch-card:hover {
     width: 600px;
     transition-delay: 0s;
+}
+
+.dutch-card .circle2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #bb012d;
+    border-radius: 20px;
+}
+
+.dutch-card .circle2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+     clip-path: circle(120px at center);
 }
 
 .hosea-card {
