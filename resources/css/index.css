@@ -19,6 +19,7 @@ html,body {
     "story story story"
     "lancaster pump volcanic";
     height: 300vh;
+    width: 100vw;
     overflow: hidden;
 }
 
@@ -194,19 +195,54 @@ h4 {
     margin: 20px;
     background-color: green;
     border-radius: 20px;
-
+    transition: 0.5s;
+    transition-delay: 0.3s;
 }
 
 .arthur-card:hover {
-    transition: 0.5s;
-    transition-delay: 0.3s;
-    width: 600px
+    width: 600px;
+    transition-delay: 0s;
 }
 
+.dutch-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    background-color: purple;
+    border-radius: 20px;
+    transition: 0.5s;
+    transition-delay: 0.3s;
+}
 
+.dutch-card:hover {
+    width: 600px;
+    transition-delay: 0s;
+}
 
+.hosea-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    transition: 0.5s;
+    transition-delay: 0.3s; 
+}
 
-
+.hosea-card:hover {
+    width: 600px;
+    transition-delay: 0s;
+}
 
 
 
