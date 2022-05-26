@@ -212,6 +212,10 @@ h4 {
     width: 100%;
     border-radius: 20px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .arthur-card .circle1::before {
@@ -228,6 +232,17 @@ h4 {
 
 .arthur-card:hover .circle1::before {
     clip-path: circle(400px at center);
+}
+
+.arthur-card .circle1 .arthur-avatar {
+    position: relative;
+    width: 159px;
+    bottom: 10px;
+    left: 5px;
+}
+
+.arthur-card:hover .circle1 .arthur-avatar {
+    transform: scale(0);
 }
 
 .dutch-card {
@@ -312,7 +327,7 @@ h4 {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #bb012d;
+    background-color: #bb012d;
     clip-path: circle(120px at center);
     transition: 0.5s;
 }
