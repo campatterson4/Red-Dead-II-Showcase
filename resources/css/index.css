@@ -10,7 +10,7 @@ html,body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 45px 550px 45px 500px 500px 500px;
+    grid-template-rows: 45px 550px 90px 500px 500px 500px;
     grid-template-areas: 
     "header header header"
     "landing landing landing"
@@ -155,10 +155,15 @@ h4 {
     left: 0px;
     bottom: 15px;
     color: #bb012d;
-    letter-spacing: 1em;
+    letter-spacing: 0.5em;
 }
 
-
+.char-title p {
+    position: relative;
+    color: #ced4da;
+    text-align: center;
+    bottom: 30px;
+}
 
 /* LOCATION  */
 .location-icon {
