@@ -263,10 +263,16 @@ h4 {
     width: 50%;
     left: 20%;
     padding: 20px 20px 20px 40px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
 }
 
 .arthur-card:hover .content1 {
     left: 80px;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.4s;
 }
 
 .arthur-card:hover .content1 h2 {
@@ -346,10 +352,16 @@ h4 {
     width: 50%;
     left: 20%;
     padding: 20px 20px 20px 40px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
 }
 
 .dutch-card:hover .content2 {
     left: 60px;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.4s;
 }
 
 .dutch-card:hover .content2 h2 {
@@ -429,10 +441,16 @@ h4 {
     width: 50%;
     left: 20%;
     padding: 20px 20px 20px 40px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
 }
 
 .hosea-card:hover .content3 {
     left: 15px;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.4s;
 }
 
 .hosea-card:hover .content3 h2 {
