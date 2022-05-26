@@ -331,6 +331,9 @@ h4 {
     width: 100%;
     border-radius: 20px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hosea-card .circle3::before {
@@ -347,6 +350,17 @@ h4 {
 
 .hosea-card:hover .circle3::before {
     clip-path: circle(400px at center);
+}
+
+.hosea-card .circle3 .hosea-avatar {
+    position: relative;
+    width: 203px;
+    bottom: 7px;
+    left: 16px;
+}
+
+.hosea-card:hover .circle3 .hosea-avatar {
+    transform: scale(0);
 }
 
 
