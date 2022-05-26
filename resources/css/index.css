@@ -17,7 +17,7 @@ html,body {
     "char-title char-title char-title"
     "arthur dutch hosea"
     "story story story"
-    "lancaster pump volcanic";
+    "lancaster volcanic pump";
     height: 300vh;
     width: 100vw;
     overflow: hidden;
@@ -60,14 +60,14 @@ section.lancaster {
     background-color: orange;
 }
 
-section.pump {
-    grid-area: pump;
-    background-color: purple;
-}
-
 section.volcanic {
     grid-area: volcanic;
     background-color: gray;
+}
+
+section.pump {
+    grid-area: pump;
+    background-color: purple;
 }
 
 /* HEADER */
@@ -239,10 +239,13 @@ h4 {
     width: 159px;
     bottom: 10px;
     left: 5px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
 }
 
 .arthur-card:hover .circle1 .arthur-avatar {
     transform: scale(0);
+    transition-delay: 0s;
 }
 
 .arthur-avatar {
@@ -303,10 +306,13 @@ h4 {
     width: 159px;
     bottom: 7px;
     left: 0px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
 }
 
 .dutch-card:hover .circle2 .dutch-avatar {
     transform: scale(0);
+    transition-delay: 0s;
 }
 
 .dutch-avatar {
@@ -367,10 +373,13 @@ h4 {
     width: 203px;
     bottom: 7px;
     left: 16px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
 }
 
 .hosea-card:hover .circle3 .hosea-avatar {
     transform: scale(0);
+    transition-delay: 0s;
 }
 
 .hosea-avatar {
