@@ -280,6 +280,27 @@ h4 {
     font-size: 2em !important;
 }
 
+.arthur-card .arthur-full {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    height: 500px;
+    transition: 0.5s;
+}
+
+.arthur-card:hover .arthur-full {
+    left: 80%;
+    top: 10%;
+    transform: translate(-50px, -50px) scale(1);
+    transition-delay: 0.5s;
+}
+
+.arthur-full {
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
+}
+
 .dutch-card {
     display: flex;
     justify-content: flex-start;
