@@ -101,6 +101,30 @@ section.pump {
     text-decoration: underline;
 }
 
+/* LOCATION  */
+.location-icon {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    padding-left: 20px;
+    top: 11.7px;
+    
+}
+
+.location {
+    position: relative;
+    bottom: 29px;
+    padding-left: 40px;
+    color: #bb012d;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+}
+
+.location:hover {
+    color: #bb012d;
+    transition: color 0.3s ease-in;
+}
+
 /* LANDING */ 
 .landing h1,  
 h2,
@@ -163,30 +187,6 @@ h4 {
     color: #ced4da;
     text-align: center;
     bottom: 30px;
-}
-
-/* LOCATION  */
-.location-icon {
-    width: 15px;
-    height: 15px;
-    position: relative;
-    padding-left: 20px;
-    top: 11.7px;
-    
-}
-
-.location {
-    position: relative;
-    bottom: 29px;
-    padding-left: 40px;
-    color: #bb012d;
-    text-transform: uppercase;
-    text-shadow: 1px 1px black;
-}
-
-.location:hover {
-    color: #bb012d;
-    transition: color 0.3s ease-in;
 }
 
 /* CHARACTER CARDS  */
@@ -521,6 +521,27 @@ h4 {
     -webkit-filter: drop-shadow(5px 5px 5px black);
     filter: drop-shadow(5px 5px 5px black);
 }
+
+/* GAME SUMMARY  */
+
+.story, .story-title, .story-summary {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.story .story-title {
+    font-size: 3em;
+}
+
+.story .story-summary {
+    width: 1000px;
+    left: 15%;
+}
+
+
+
 
 
 
