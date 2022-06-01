@@ -527,21 +527,20 @@ h4 {
 .story, .story-title, .story-summary {
     position: relative;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 0.1em;
 }
 
 .story .story-title {
     font-size: 3em;
+    text-transform: uppercase;
 }
 
 .story .story-summary {
     width: 1000px;
     left: 15%;
+    font-size: 1.2em;
 }
-
-
-
 
 
 
