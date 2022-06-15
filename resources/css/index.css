@@ -10,7 +10,7 @@ html,body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 45px 550px 90px 500px 500px 120px 500px;
+    grid-template-rows: 45px 550px 90px 500px 500px 90px 500px;
     grid-template-areas: 
     "header header header"
     "landing landing landing"
@@ -19,7 +19,7 @@ html,body {
     "story story story"
     "weaponry weaponry weaponry"
     "lancaster volcanic pump";
-    height: 300vh;
+    height: 315vh;
     width: 100vw;
     overflow: hidden;
 }
@@ -554,13 +554,12 @@ h4 {
 }
 
 /* WEAPONRY */
-
 .weaponry h1 {
     text-align: center;
     text-transform: uppercase;
     position: relative;
     left: 0;
-    bottom: 15px;
+    bottom: 3em;
     color: #bb012d;
     letter-spacing: 0.5em;
 }
@@ -569,11 +568,8 @@ h4 {
     position: relative;
     color: #ced4da;
     text-align: center;
-    bottom: 25px;
+    bottom: 5.3em;
 }
-
-
-
 
 /* WEAPON CARDS */
 .lancaster-card {
@@ -616,6 +612,22 @@ h4 {
 .lancaster-card:hover .circle4::before {
     clip-path: circle(400px at center);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
