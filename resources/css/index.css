@@ -572,6 +572,8 @@ h4 {
 }
 
 /* WEAPON CARDS */
+
+/* LANCASTER */
 .lancaster-card {
     position: relative;
     width: 300px;
@@ -615,8 +617,49 @@ h4 {
 
 
 
+/* VOLCANIC */
+.volcanic-card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
 
+.volcanic-card:hover {
+    width: 600px;
+    transition-delay: 0s;
+}
 
+.volcanic-card .circle5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.volcanic-card .circle5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #bb012d;
+    clip-path: circle(120px at center);
+    transition: 0.5s;
+}
+
+.volcanic-card:hover .circle5::before {
+    clip-path: circle(400px at center);
+}
+
+/* PUMP */
 
 
 
