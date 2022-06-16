@@ -63,17 +63,17 @@ section.weaponry {
 
 section.lancaster {
     grid-area: lancaster;
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 section.volcanic {
     grid-area: volcanic;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 section.pump {
     grid-area: pump;
-    background-color: purple;
+    /* background-color: purple; */
 }
 
 /* HEADER */
@@ -592,7 +592,7 @@ h4 {
 .lancaster-card .circle4 {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 95px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -636,7 +636,7 @@ h4 {
 .volcanic-card .circle5 {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50px;
     width: 100%;
     height: 100%;
     border-radius: 20px;
