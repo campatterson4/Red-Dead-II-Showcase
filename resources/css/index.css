@@ -557,7 +557,7 @@ h4 {
     text-align: center;
     text-transform: uppercase;
     position: relative;
-    left: 10px;
+    left: -3px;
     bottom: 3em;
     color: #bb012d;
     letter-spacing: 0.5em;
@@ -568,6 +568,7 @@ h4 {
     color: #ced4da;
     text-align: center;
     bottom: 5.3em;
+    left: -7px;
 }
 
 /* WEAPON CARDS */
