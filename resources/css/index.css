@@ -620,13 +620,18 @@ h4 {
 .lancaster-card .circle4 .lancaster-avatar {
     position: relative;
     width: 540px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
 
+.lancaster-card:hover .circle4 .lancaster-avatar {
+    transform: scale(0);
+    transition-delay: 0s;
 }
 
 .lancaster-avatar {
     -webkit-filter: drop-shadow(5px 5px 5px black);
     filter: drop-shadow(5px 5px 5px black);
-    transform: rotate(25deg);
 }
 
 
