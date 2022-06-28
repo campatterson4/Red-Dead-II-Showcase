@@ -754,19 +754,21 @@ h4 {
 }
 
 .volcanic-card:hover .content5 h2 {
-    bottom: 200px;
+    bottom: 150px;
     font-size: 2em;
+    right: 197px;
 }
 
 .volcanic-card:hover .content5 h3 {
-    bottom: 185px;
+    bottom: 135px;
     font-size: 1.1em;
+    right: 130px;
 }
 
 .content5 .volcanic-paragraph {
     font-size: .95em;
     position: relative;
-    top: 60px;
+    top: 70px;
     right: 30px;
 }
 
