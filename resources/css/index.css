@@ -736,6 +736,40 @@ h4 {
     filter: drop-shadow(5px 5px 5px black);
 }
 
+.content5 {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+}
+
+.volcanic-card:hover .content5 {
+    left: 85px;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.4s;
+}
+
+.volcanic-card:hover .content5 h2 {
+    bottom: 200px;
+    font-size: 2em;
+}
+
+.volcanic-card:hover .content5 h3 {
+    bottom: 185px;
+    font-size: 1.1em;
+}
+
+.content5 .volcanic-paragraph {
+    font-size: .95em;
+    position: relative;
+    top: 60px;
+    right: 30px;
+}
+
 /* PUMP */
 .pump-card {
     position: relative;
