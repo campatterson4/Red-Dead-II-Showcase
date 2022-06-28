@@ -561,6 +561,7 @@ h4 {
     bottom: 3em;
     color: #bb012d;
     letter-spacing: 0.5em;
+    font-size: 1.6em;
 }
 
 .weaponry p {
@@ -582,6 +583,9 @@ h4 {
     border-radius: 20px;
     transition: 0.5s;
     transition-delay: 0.5s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .lancaster-card:hover {
@@ -635,7 +639,30 @@ h4 {
     filter: drop-shadow(5px 5px 5px black);
 }
 
+.content4 {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+}
 
+.lancaster-card:hover .content4 {
+    left: 85px;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.content4 h2 {
+    bottom: 250px;
+}
+
+.content4 p {
+    bottom: 600px;
+}
 
 /* VOLCANIC */
 .volcanic-card {
