@@ -596,6 +596,9 @@ h4 {
     height: 100%;
     border-radius: 20px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lancaster-card .circle4::before {
@@ -612,6 +615,18 @@ h4 {
 
 .lancaster-card:hover .circle4::before {
     clip-path: circle(400px at center);
+}
+
+.lancaster-card .circle4 .lancaster-avatar {
+    position: relative;
+    width: 540px;
+
+}
+
+.lancaster-avatar {
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
+    transform: rotate(25deg);
 }
 
 
