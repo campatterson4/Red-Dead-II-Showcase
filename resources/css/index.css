@@ -684,6 +684,13 @@ h4 {
 .volcanic-card .circle5 .volcanic-avatar {
     position: relative;
     width: 400px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.volcanic-card:hover .circle5 .volcanic-avatar {
+    transform: scale(0);
+    transition-delay: 0s;
 }
 
 .volcanic-avatar {
