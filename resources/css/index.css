@@ -683,7 +683,12 @@ h4 {
 
 .volcanic-card .circle5 .volcanic-avatar {
     position: relative;
-    width: 200px;
+    width: 400px;
+}
+
+.volcanic-avatar {
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
 }
 
 /* PUMP */
