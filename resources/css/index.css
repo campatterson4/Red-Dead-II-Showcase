@@ -113,13 +113,13 @@ section.pump {
     height: 15px;
     position: relative;
     padding-left: 20px;
-    top: 11.7px;
+    top: 10px;
     
 }
 
 .location {
     position: relative;
-    bottom: 29px;
+    bottom: 30px;
     padding-left: 40px;
     color: #bb012d;
     text-transform: uppercase;
