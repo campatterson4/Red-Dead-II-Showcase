@@ -781,6 +781,9 @@ h4 {
     border-radius: 20px;
     transition: 0.5s;
     transition-delay: 0.5s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .pump-card:hover {
@@ -833,6 +836,23 @@ h4 {
     -webkit-filter: drop-shadow(5px 5px 5px black);
     filter: drop-shadow(5px 5px 5px black);
 }
+
+.content6 {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+}
+
+.pump-card:hover .content6 {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
 
 
 
