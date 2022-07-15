@@ -851,8 +851,27 @@ h4 {
     left: 0;
     opacity: 1;
     visibility: visible;
+    transition-delay: 0.5s;
 }
 
+.pump-card:hover .content6 h2 {
+    bottom: 200px;
+    font-size: 2em;
+    right: 117px;
+}
+
+.pump-card:hover .content6 h3 {
+    bottom: 184px;
+    font-size: 1.1em;
+    right: 208px;
+}
+
+.content6 .pump-paragraph {
+    font-size: .95em;
+    position: relative;
+    top: 21px;
+    right: 10px;
+}
 
 
 
